@@ -1,0 +1,35 @@
+#banner{
+    background-image: url('https://preview.colorlib.com/theme/hosting/img/header-bg.jpg.webp');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+#banner h1{
+    font-size: 48px;font-weight: 700;width: 50%;
+}
+#banner p{width: 50%;}
+#banner a{padding: 20px 50px;background-color: white;
+border: 1px white solid; color: black;
+font-weight: 600;
+border-radius: 30px;
+display: inline-block;margin-top: 10px;}
+
+#banner a:hover{
+background-color: transparent;
+color: white;
+}
+
+#brands{margin: 55px 0px;}
+#brands .container{display: flex;
+    justify-content: space-between;
+}
+#brands img{filter: grayscale(100%);}
+#brands img:hover{filter: grayscale(0%);}
+
+#testimonial{padding: 15px 0px;}
+#testimonial .container .information {border-right: 1px solid #b5b4b4;}
+#testimonial .container .information h6{font-size: 15px;font-weight: 300;}
+#testimonial .detail{font-size: 14px;}

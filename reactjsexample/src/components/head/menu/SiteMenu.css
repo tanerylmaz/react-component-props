@@ -1,0 +1,11 @@
+#SiteMenu{background-color: white; 
+    -webkit-box-shadow: 0px 46px 40px -33px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 46px 40px -33px rgba(0,0,0,0.75);
+    box-shadow: 0px 46px 40px -33px rgba(0,0,0,0.75); }
+#SiteMenu div.container{
+    display: flex;justify-content: space-between;align-items: center;
+}
+#SiteMenu ul{display: flex; justify-content: flex-end;}
+#SiteMenu ul li{margin: 15px;}
+#SiteMenu ul li:last-child{margin-right: 0px;}
+#SiteMenu ul li a{font-size: 13px;text-transform: uppercase;}
